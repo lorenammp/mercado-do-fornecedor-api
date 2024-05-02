@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "email": "contato@usiminas.com",
+      "password": "$2a$10$PhuMYVSA//R/5D07RMaxruXMXVClanehN0xUE2zRs8lXcjtRoyt2y",
+      "nome": "Usiminas",
+      "cnpj": "43.403 490/0001-21",
+      "segmento": "Siderurgia",
+      "logo": "img.png",
+      "endereco": "Av. do Contorno, 6594 - Lourdes CEP: 30110-044",
+      "cidade": "Belo Horizonte",
+      "estado": "Minas Gerais",
+      "telefone": "313485-4958",
+      "tipo": "fornecedor",
+      "id": 1
+    },
+    {
+      "email": "contato@voltz.com",
+      "password": "$2a$10$2C3DlIP3FH9vRZhepEc2T.70JKzwuTKW30tsDxPWi.A4p56Av3vRW",
+      "nome": "Voltz",
+      "cnpj": "75.494 093/0001-49",
+      "segmento": "Veículos",
+      "logo": "img.png",
+      "endereco": "Rua Bicas, 3204, Cidade Industrial",
+      "cidade": "Contagem",
+      "estado": "Minas Gerais",
+      "telefone": "313094-4932",
+      "tipo": "cliente",
+      "id": 2
+    },
+    {
+      "email": "contato@panco.com",
+      "password": "$2a$10$FN5ldXCu3loEgUCZPyjOYu2pWmADhTjWlawamweNiVr3cdStyRjve",
+      "nome": "Panco",
+      "cnpj": "29.840 239/0001-34",
+      "segmento": "Alimentos",
+      "logo": "img.png",
+      "endereco": "Alameda Soares, 23 - Centro CEP: 39495-393",
+      "cidade": "Curitiba",
+      "estado": "Paraná",
+      "telefone": "413898-3494",
+      "tipo": "fornecedor",
+      "id": 3
+    }
+  ],
+  "pedidos": [
+    {
+      "endereco": "Rua Ponte Nova, 230, Riacho",
+      "cidade": "São Paulo",
+      "estado": "São Paulo",
+      "prazoDeEntrega": "60 dias",
+      "observacao": "Dividir a entrega em 3 etapas",
+      "itensDoPedido": [
+        {
+          "nome": "Arroz",
+          "quantidade": "50 pacotes de 5kg cada"
+        },
+        {
+          "nome": "Pão",
+          "quantidade": "500 unidades"
+        },
+        {
+          "nome": "Farinha de triga",
+          "quantidade": "100 kg"
+        }
+      ],
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "cotacoes": [
+    {
+      "valor": 250000,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Primeira entrega em 20 dias",
+      "pedidoId": 1,
+      "userId": 1,
+      "clienteId": 2,
+      "id": 1
+    }
+  ]
+}
