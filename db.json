@@ -7,6 +7,7 @@
       "cnpj": "12.587.533/0001-09",
       "tipo": "cliente",
       "endereco": {
+        "cep": "09842080",
         "logradouro": "Estrada Galvão Bueno",
         "bairro": "Batistini",
         "localidade": "São Bernardo do Campo",
@@ -16,6 +17,7 @@
       },
       "telefone": "1132945000",
       "imgUrl": "https://i.ibb.co/vsYy4D5/f11.png",
+      "segmento": "Artes e artesanato",
       "id": 1
     },
     {
@@ -25,6 +27,7 @@
       "cnpj": "65.396.926/0001-93",
       "tipo": "fornecedor",
       "endereco": {
+        "cep": "32183054",
         "logradouro": "Avenida Geraldo Rocha",
         "bairro": "Chácaras Cotia",
         "localidade": "Contagem",
@@ -34,6 +37,7 @@
       },
       "telefone": "3131902000",
       "imgUrl": "https://i.ibb.co/sJYN6yS/f2.png",
+      "segmento": "Logística",
       "id": 2
     },
     {
@@ -43,6 +47,7 @@
       "cnpj": "29.846.402/0001-93",
       "tipo": "cliente",
       "endereco": {
+        "cep": "30110044",
         "logradouro": "Avenida do Contorno",
         "bairro": "Lourdes",
         "localidade": "Belo Horizonte",
@@ -52,44 +57,30 @@
       },
       "telefone": "3132901000",
       "imgUrl": "https://i.ibb.co/YcgyyCw/f1.png",
+      "segmento": "Siderurgia",
       "id": 3
-    }
-  ],
-  "pedidos": [
+    },
     {
-      "data": "6/5/2024",
+      "email": "contato@catupiry.com",
+      "password": "$2a$10$EmUQnV2kMqShmlYZEU6LC.PG.LPx4ISUivr9MKBY0.s7CWhz50EqS",
+      "nome": "Catupiry",
+      "cnpj": "43.665.970/0001-19",
+      "tipo": "fornecedor",
       "endereco": {
-        "logradouro": "Estrada Galvão Bueno",
-        "bairro": "Batistini",
-        "localidade": "São Bernardo do Campo",
+        "cep": "01134000",
+        "logradouro": "Avenida Rudge",
+        "bairro": "Bom Retiro",
+        "localidade": "São Paulo",
         "uf": "SP",
         "complemento": "",
-        "numero": "5000"
+        "numero": "218"
       },
-      "prazoDeEntrega": "30 dias corridos",
-      "observacao": "Devem ser efetuadas duas entregas com prazo de 1 semana entre elas",
-      "itensDoPedido": [
-        {
-          "nomeDoItem": "Pigmento amarelo",
-          "qtdDoItem": "5kg",
-          "idItem": "item-lista-id-0"
-        },
-        {
-          "nomeDoItem": "Pigmento vermelho",
-          "qtdDoItem": "5kg",
-          "idItem": "item-lista-id-1"
-        },
-        {
-          "nomeDoItem": "Pigmento azul",
-          "qtdDoItem": "5kg",
-          "idItem": "item-lista-id-2"
-        }
-      ],
-      "status": "em aberto",
-      "userId": 1,
-      "fornecedorId": null,
-      "id": 1
+      "telefone": "1131242100",
+      "imgUrl": "https://i.ibb.co/Yj2dy12/f9.png",
+      "segmento": "Alimentos",
+      "id": 5
     }
   ],
+  "pedidos": [],
   "cotacoes": []
 }
