@@ -78,9 +78,130 @@
       "telefone": "1131242100",
       "imgUrl": "https://i.ibb.co/Yj2dy12/f9.png",
       "segmento": "Alimentos",
+      "id": 4
+    }
+  ],
+  "pedidos": [
+    {
+      "data": "2024-04-28T12:45:17.727Z",
+      "endereco": {
+        "logradouro": "Avenida do Contorno",
+        "bairro": "Lourdes",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "complemento": "",
+        "numero": "6594"
+      },
+      "prazoDeEntrega": "60 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "itensDoPedido": [
+        {
+          "nomeDoItem": "ferro",
+          "qtdDoItem": "500 kg",
+          "idItem": "item-lista-id-0"
+        }
+      ],
+      "status": "em aberto",
+      "userId": 3,
+      "fornecedorId": null,
+      "id": 1
+    },
+    {
+      "data": "2024-04-15T22:45:17.727Z",
+      "endereco": {
+        "logradouro": "Avenida do Contorno",
+        "bairro": "Lourdes",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "complemento": "",
+        "numero": "6594"
+      },
+      "prazoDeEntrega": "N/A",
+      "observacao": "Realizar duas entregas por dia",
+      "itensDoPedido": [
+        {
+          "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
+          "qtdDoItem": "N/A",
+          "idItem": "item-lista-id-0"
+        }
+      ],
+      "status": "em aberto",
+      "userId": 3,
+      "fornecedorId": null,
+      "id": 2
+    },
+    {
+      "data": "2024-04-12T16:02:17.727Z",
+      "endereco": {
+        "logradouro": "Avenida do Contorno",
+        "bairro": "Lourdes",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "complemento": "",
+        "numero": "6594"
+      },
+      "prazoDeEntrega": "15 dias",
+      "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
+      "itensDoPedido": [
+        {
+          "nomeDoItem": "Requeijão",
+          "qtdDoItem": "30 kg",
+          "idItem": "item-lista-id-0"
+        }
+      ],
+      "status": "em aberto",
+      "userId": 3,
+      "fornecedorId": null,
+      "id": 3
+    },
+    {
+      "data": "2024-03-30T09:34:17.727Z",
+      "endereco": {
+        "logradouro": "Avenida do Contorno",
+        "bairro": "Lourdes",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "complemento": "",
+        "numero": "6594"
+      },
+      "prazoDeEntrega": "15 dias",
+      "observacao": "N/A",
+      "itensDoPedido": [
+        {
+          "nomeDoItem": "Queijo Minas",
+          "qtdDoItem": "50 kg",
+          "idItem": "item-lista-id-0"
+        }
+      ],
+      "status": "em aberto",
+      "userId": 3,
+      "fornecedorId": null,
+      "id": 4
+    },
+    {
+      "data": "2024-03-29T11:18:17.727Z",
+      "endereco": {
+        "logradouro": "Avenida do Contorno",
+        "bairro": "Lourdes",
+        "localidade": "Belo Horizonte",
+        "uf": "MG",
+        "complemento": "",
+        "numero": "6594"
+      },
+      "prazoDeEntrega": "30 dias",
+      "observacao": "N/A",
+      "itensDoPedido": [
+        {
+          "nomeDoItem": "Carbono",
+          "qtdDoItem": "200 kg",
+          "idItem": "item-lista-id-0"
+        }
+      ],
+      "status": "em aberto",
+      "userId": 3,
+      "fornecedorId": null,
       "id": 5
     }
   ],
-  "pedidos": [],
   "cotacoes": []
 }
