@@ -83,7 +83,7 @@
   ],
   "pedidos": [
     {
-      "data": "2024-04-28T12:45:17.727Z",
+      "data": "2024-03-29T11:18:17.727Z",
       "endereco": {
         "logradouro": "Avenida do Contorno",
         "bairro": "Lourdes",
@@ -92,12 +92,12 @@
         "complemento": "",
         "numero": "6594"
       },
-      "prazoDeEntrega": "60 dias",
-      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "prazoDeEntrega": "30 dias",
+      "observacao": "N/A",
       "itensDoPedido": [
         {
-          "nomeDoItem": "ferro",
-          "qtdDoItem": "500 kg",
+          "nomeDoItem": "Carbono",
+          "qtdDoItem": "200 kg",
           "idItem": "item-lista-id-0"
         }
       ],
@@ -107,7 +107,7 @@
       "id": 1
     },
     {
-      "data": "2024-04-15T22:45:17.727Z",
+      "data": "2024-03-30T09:34:17.727Z",
       "endereco": {
         "logradouro": "Avenida do Contorno",
         "bairro": "Lourdes",
@@ -116,12 +116,12 @@
         "complemento": "",
         "numero": "6594"
       },
-      "prazoDeEntrega": "N/A",
-      "observacao": "Realizar duas entregas por dia",
+      "prazoDeEntrega": "15 dias",
+      "observacao": "N/A",
       "itensDoPedido": [
         {
-          "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
-          "qtdDoItem": "N/A",
+          "nomeDoItem": "Queijo Minas",
+          "qtdDoItem": "50 kg",
           "idItem": "item-lista-id-0"
         }
       ],
@@ -155,7 +155,7 @@
       "id": 3
     },
     {
-      "data": "2024-03-30T09:34:17.727Z",
+      "data": "2024-04-15T22:45:17.727Z",
       "endereco": {
         "logradouro": "Avenida do Contorno",
         "bairro": "Lourdes",
@@ -164,12 +164,12 @@
         "complemento": "",
         "numero": "6594"
       },
-      "prazoDeEntrega": "15 dias",
-      "observacao": "N/A",
+      "prazoDeEntrega": "N/A",
+      "observacao": "Realizar duas entregas por dia",
       "itensDoPedido": [
         {
-          "nomeDoItem": "Queijo Minas",
-          "qtdDoItem": "50 kg",
+          "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
+          "qtdDoItem": "N/A",
           "idItem": "item-lista-id-0"
         }
       ],
@@ -179,7 +179,7 @@
       "id": 4
     },
     {
-      "data": "2024-03-29T11:18:17.727Z",
+      "data": "2024-04-28T12:45:17.727Z",
       "endereco": {
         "logradouro": "Avenida do Contorno",
         "bairro": "Lourdes",
@@ -188,12 +188,12 @@
         "complemento": "",
         "numero": "6594"
       },
-      "prazoDeEntrega": "30 dias",
-      "observacao": "N/A",
+      "prazoDeEntrega": "60 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
       "itensDoPedido": [
         {
-          "nomeDoItem": "Carbono",
-          "qtdDoItem": "200 kg",
+          "nomeDoItem": "ferro",
+          "qtdDoItem": "500 kg",
           "idItem": "item-lista-id-0"
         }
       ],
