@@ -96,15 +96,16 @@
       "observacao": "N/A",
       "itensDoPedido": [
         {
-          "nomeDoItem": "Carbono",
-          "qtdDoItem": "200 kg",
+          "nomeDoItem": "Envelope papel",
+          "qtdDoItem": "10000 unidades",
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 1
+      "fornecedorId": 6,
+      "id": 1,
+      "valor": 5497.02
     },
     {
       "data": "2022-12-27T19:40:17.727Z",
@@ -125,10 +126,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 2
+      "fornecedorId": 4,
+      "id": 2,
+      "valor": 1975.57
     },
     {
       "data": "2023-01-20T12:20:17.727Z",
@@ -149,10 +151,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 3
+      "fornecedorId": 4,
+      "id": 3,
+      "valor": 742.1
     },
     {
       "data": "2023-01-25T14:35:17.727Z",
@@ -173,10 +176,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 4
+      "fornecedorId": 2,
+      "id": 4,
+      "valor": 42290
     },
     {
       "data": "2023-03-18T11:41:17.727Z",
@@ -192,15 +196,21 @@
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
       "itensDoPedido": [
         {
-          "nomeDoItem": "ferro",
-          "qtdDoItem": "500 kg",
+          "nomeDoItem": "Caneta esferográfica azul",
+          "qtdDoItem": "1000 unidades",
           "idItem": "item-lista-id-0"
+        },
+        {
+          "nomeDoItem": "Caneta esferográfica preta",
+          "qtdDoItem": "1000 unidades",
+          "idItem": "item-lista-id-1"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 5
+      "fornecedorId": 6,
+      "id": 5,
+      "valor": 11250.57
     },
     {
       "data": "2023-07-19T11:18:17.727Z",
@@ -221,10 +231,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 6
+      "fornecedorId": 5,
+      "id": 6,
+      "valor": 158930
     },
     {
       "data": "2023-07-21T09:34:17.727Z",
@@ -240,15 +251,16 @@
       "observacao": "N/A",
       "itensDoPedido": [
         {
-          "nomeDoItem": "Queijo Minas",
-          "qtdDoItem": "50 kg",
+          "nomeDoItem": "Resmas de papel",
+          "qtdDoItem": "1200 unidades",
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 7
+      "fornecedorId": 6,
+      "id": 7,
+      "valor": 19547.3
     },
     {
       "data": "2023-07-24T15:02:17.727Z",
@@ -269,10 +281,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 8
+      "fornecedorId": 4,
+      "id": 8,
+      "valor": 847
     },
     {
       "data": "2023-10-07T22:45:17.727Z",
@@ -293,10 +306,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 9
+      "fornecedorId": 2,
+      "id": 9,
+      "valor": 30840.3
     },
     {
       "data": "2023-10-18T12:45:17.727Z",
@@ -317,10 +331,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 10
+      "fornecedorId": 5,
+      "id": 10,
+      "valor": 389200
     },
     {
       "data": "2024-03-29T11:18:17.727Z",
@@ -341,10 +356,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 11
+      "fornecedorId": 5,
+      "id": 11,
+      "valor": 175000
     },
     {
       "data": "2024-03-30T09:34:17.727Z",
@@ -365,10 +381,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 12
+      "fornecedorId": 4,
+      "id": 12,
+      "valor": 2258
     },
     {
       "data": "2024-04-12T16:02:17.727Z",
@@ -389,10 +406,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "finalizado",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 13
+      "fornecedorId": 4,
+      "id": 13,
+      "valor": 947.2
     },
     {
       "data": "2024-04-15T22:45:17.727Z",
@@ -413,10 +431,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "aguardando envio",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 14
+      "fornecedorId": 2,
+      "id": 14,
+      "valor": 51912
     },
     {
       "data": "2024-04-28T12:45:17.727Z",
@@ -437,10 +456,11 @@
           "idItem": "item-lista-id-0"
         }
       ],
-      "status": "em aberto",
+      "status": "aguardando envio",
       "userId": 3,
-      "fornecedorId": null,
-      "id": 15
+      "fornecedorId": 5,
+      "id": 15,
+      "valor": 412500
     }
   ],
   "cotacoes": []
