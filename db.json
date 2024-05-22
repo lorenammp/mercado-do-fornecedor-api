@@ -50,6 +50,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 5497.02
         },
         {
@@ -83,6 +84,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 1975.57
         },
         {
@@ -116,6 +118,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 742.1
         },
         {
@@ -149,6 +152,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 42290
         },
         {
@@ -187,6 +191,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 11250.57
         },
         {
@@ -220,6 +225,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 158930
         },
         {
@@ -253,6 +259,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 19547.3
         }
       ],
@@ -328,6 +335,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 847
         },
         {
@@ -360,6 +368,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 30840.3
         },
         {
@@ -392,6 +401,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 389200
         },
         {
@@ -424,6 +434,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 175000
         },
         {
@@ -456,6 +467,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 2258
         },
         {
@@ -488,6 +500,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 947.2
         },
         {
@@ -520,6 +533,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 51912
         },
         {
@@ -552,6 +566,7 @@
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
+          "fornecedorId": 2,
           "valor": 412500
         }
       ],
