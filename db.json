@@ -16,7 +16,7 @@
         "numero": "5000"
       },
       "telefone": "1132945000",
-      "imgUrl": "https://i.ibb.co/vsYy4D5/f11.png",
+      "imgUrl": "https://i.imgur.com/6RRlmBS.png",
       "segmento": "Artes e artesanato",
       "pedidos": [
         {
@@ -281,7 +281,7 @@
         "numero": "548"
       },
       "telefone": "3131902000",
-      "imgUrl": "https://i.ibb.co/sJYN6yS/f2.png",
+      "imgUrl": "https://i.imgur.com/pNzVZmK.png",
       "segmento": "Logística",
       "pedidos": [],
       "id": 2
@@ -302,7 +302,7 @@
         "numero": "6594"
       },
       "telefone": "3132901000",
-      "imgUrl": "https://i.ibb.co/YcgyyCw/f1.png",
+      "imgUrl": "https://i.imgur.com/3qGdfzE.png",
       "segmento": "Siderurgia",
       "pedidos": [
         {
@@ -325,7 +325,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 8,
+          "id": 1,
           "cotacoes": [
             {
               "id": 1,
@@ -358,7 +358,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 9,
+          "id": 2,
           "cotacoes": [
             {
               "id": 1,
@@ -391,7 +391,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 10,
+          "id": 3,
           "cotacoes": [
             {
               "id": 1,
@@ -424,7 +424,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 11,
+          "id": 4,
           "cotacoes": [
             {
               "id": 1,
@@ -457,7 +457,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 12,
+          "id": 5,
           "cotacoes": [
             {
               "id": 1,
@@ -490,7 +490,7 @@
             }
           ],
           "status": "finalizado",
-          "id": 13,
+          "id": 6,
           "cotacoes": [
             {
               "id": 1,
@@ -523,7 +523,7 @@
             }
           ],
           "status": "aguardando envio",
-          "id": 14,
+          "id": 7,
           "cotacoes": [
             {
               "id": 1,
@@ -556,7 +556,7 @@
             }
           ],
           "status": "aguardando envio",
-          "id": 15,
+          "id": 8,
           "cotacoes": [
             {
               "id": 1,
@@ -588,20 +588,12 @@
         "numero": "218"
       },
       "telefone": "1131242100",
-      "imgUrl": "https://i.ibb.co/Yj2dy12/f9.png",
+      "imgUrl": "https://i.imgur.com/3K9PCCC.png",
       "segmento": "Alimentos",
       "pedidos": [],
       "id": 4
     }
   ],
   "pedidos": [],
-  "cotacoes": [
-    {
-      "id": 1,
-      "fornecedorId": 2,
-      "valor": 2500,
-      "prazoDeEntrega": "30 dias",
-      "observacao": "Realizar duas entregas com intervalos de 15 dias"
-    }
-  ]
+  "cotacoes": []
 }
