@@ -40,11 +40,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 6,
           "id": 1,
-
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 5497.02
         },
         {
@@ -68,11 +73,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 4,
           "id": 2,
-
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 1975.57
         },
         {
@@ -96,10 +106,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 4,
           "id": 3,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 742.1
         },
         {
@@ -123,10 +139,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 2,
           "id": 4,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 42290
         },
         {
@@ -155,10 +177,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 6,
           "id": 5,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 11250.57
         },
         {
@@ -182,10 +210,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 5,
           "id": 6,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 158930
         },
         {
@@ -209,38 +243,17 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 6,
           "id": 7,
-          "cotacoes": [],
-          "valor": 19547.3
-        },
-        {
-          "data": "2023-07-24T15:02:17.727Z",
-          "endereco": {
-            "cep": "09842080",
-            "logradouro": "Estrada Galvão Bueno",
-            "bairro": "Batistini",
-            "localidade": "São Bernardo do Campo",
-            "uf": "SP",
-            "complemento": "",
-            "numero": "5000"
-          },
-          "prazoDeEntrega": "15 dias",
-          "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
-          "itensDoPedido": [
+          "cotacoes": [
             {
-              "nomeDoItem": "Requeijão",
-              "qtdDoItem": "30 kg",
-              "idItem": "item-lista-id-0"
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 4,
-          "id": 8,
-          "cotacoes": [],
-          "valor": 847
+          "valor": 19547.3
         }
       ],
       "id": 1
@@ -263,6 +276,7 @@
       "telefone": "3131902000",
       "imgUrl": "https://i.ibb.co/sJYN6yS/f2.png",
       "segmento": "Logística",
+      "pedidos": [],
       "id": 2
     },
     {
@@ -285,6 +299,38 @@
       "segmento": "Siderurgia",
       "pedidos": [
         {
+          "data": "2023-07-24T15:02:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Requeijão",
+              "qtdDoItem": "30 kg",
+              "idItem": "item-lista-id-0"
+            }
+          ],
+          "status": "finalizado",
+          "id": 8,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "valor": 847
+        },
+        {
           "data": "2023-10-07T22:45:17.727Z",
           "endereco": {
             "logradouro": "Avenida do Contorno",
@@ -304,11 +350,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 2,
           "id": 9,
-
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 30840.3
         },
         {
@@ -331,10 +382,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 5,
           "id": 10,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 389200
         },
         {
@@ -357,10 +414,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 5,
           "id": 11,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 175000
         },
         {
@@ -383,10 +446,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 4,
           "id": 12,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 2258
         },
         {
@@ -409,10 +478,16 @@
             }
           ],
           "status": "finalizado",
-          "userId": 3,
-          "fornecedorId": 4,
           "id": 13,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 947.2
         },
         {
@@ -435,10 +510,16 @@
             }
           ],
           "status": "aguardando envio",
-          "userId": 3,
-          "fornecedorId": 2,
           "id": 14,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 51912
         },
         {
@@ -461,10 +542,16 @@
             }
           ],
           "status": "aguardando envio",
-          "userId": 3,
-          "fornecedorId": 5,
           "id": 15,
-          "cotacoes": [],
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
           "valor": 412500
         }
       ],
@@ -488,9 +575,18 @@
       "telefone": "1131242100",
       "imgUrl": "https://i.ibb.co/Yj2dy12/f9.png",
       "segmento": "Alimentos",
+      "pedidos": [],
       "id": 4
     }
   ],
   "pedidos": [],
-  "cotacoes": []
+  "cotacoes": [
+    {
+      "id": 1,
+      "fornecedorId": 2,
+      "valor": 2500,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias"
+    }
+  ]
 }
