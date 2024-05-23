@@ -44,13 +44,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 6,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 6,
           "valor": 5497.02
         },
         {
@@ -78,13 +78,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 4,
           "valor": 1975.57
         },
         {
@@ -112,13 +112,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 4,
           "valor": 742.1
         },
         {
@@ -185,13 +185,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 6,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 6,
           "valor": 11250.57
         },
         {
@@ -219,13 +219,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 5,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 5,
           "valor": 158930
         },
         {
@@ -253,13 +253,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 6,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 6,
           "valor": 19547.3
         }
       ],
@@ -329,13 +329,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 4,
           "valor": 847
         },
         {
@@ -395,13 +395,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 5,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 5,
           "valor": 389200
         },
         {
@@ -428,13 +428,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 5,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 5,
           "valor": 175000
         },
         {
@@ -461,13 +461,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 4,
           "valor": 2258
         },
         {
@@ -494,13 +494,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 4,
           "valor": 947.2
         },
         {
@@ -560,13 +560,13 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 5,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "fornecedorId": 5,
           "valor": 412500
         }
       ],
