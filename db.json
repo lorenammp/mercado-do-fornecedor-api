@@ -1,9 +1,9 @@
 {
   "users": [
     {
-      "email": "contato@acrilex.com",
+      "email": "contato@ecominera.com",
       "password": "$2a$10$xQzEp.lgSb5hziuMofLj0.T6ilDz.kxWzk.nIHqxUXtYkf67AnIgu",
-      "nome": "Acrilex",
+      "nome": "EcoMinera",
       "cnpj": "12.587.533/0001-09",
       "tipo": "cliente",
       "endereco": {
@@ -16,8 +16,8 @@
         "numero": "5000"
       },
       "telefone": "1132945000",
-      "imgUrl": "https://i.postimg.cc/rm43JfXM/f11.png",
-      "segmento": "Artes e artesanato",
+      "imgUrl": "https://i.postimg.cc/CLFhF3g8/lu1.png",
+      "segmento": "Mineração",
       "pedidos": [
         {
           "data": "2022-12-11T13:48:17.727Z",
@@ -36,7 +36,17 @@
             {
               "nomeDoItem": "Envelope papel",
               "qtdDoItem": "10000 unidades",
-              "idItem": "item-lista-id-0"
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Caneta esferográfica preta",
+              "qtdDoItem": "500 unidades",
+              "idItem": 2
+            },
+            {
+              "nomeDoItem": "Papel reciclado",
+              "qtdDoItem": "1000 resmas",
+              "idItem": 3
             }
           ],
           "status": "finalizado",
@@ -44,13 +54,15 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 6,
-              "valor": 2500,
+              "fornecedorId": 2,
+              "clienteId": 1,
+              "valor": 5497.02,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 6,
+          "clienteId": 1,
+          "fornecedorId": 2,
           "valor": 5497.02
         },
         {
@@ -68,9 +80,9 @@
           "observacao": "N/A",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Queijo Minas",
-              "qtdDoItem": "50 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "Computador",
+              "qtdDoItem": "50 unidades",
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -78,14 +90,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 4,
-              "valor": 2500,
+              "fornecedorId": 3,
+              "clienteId": 1,
+              "valor": 235198.15,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 4,
-          "valor": 1975.57
+          "clienteId": 1,
+          "fornecedorId": 3,
+          "valor": 235198.15
         },
         {
           "data": "2023-01-20T12:20:17.727Z",
@@ -102,9 +116,14 @@
           "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Requeijão",
-              "qtdDoItem": "30 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "Design de marca",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Design de papelaria",
+              "qtdDoItem": "1 serviço",
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -112,14 +131,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 4,
-              "valor": 2500,
-              "prazoDeEntrega": "30 dias",
-              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+              "fornecedorId": 7,
+              "clienteId": 1,
+              "valor": 38440,
+              "prazoDeEntrega": "90 dias",
+              "observacao": "N/A"
             }
           ],
-          "fornecedorId": 4,
-          "valor": 742.1
+          "clienteId": 1,
+          "fornecedorId": 7,
+          "valor": 38440
         },
         {
           "data": "2023-01-25T14:35:17.727Z",
@@ -138,7 +159,7 @@
             {
               "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
               "qtdDoItem": "N/A",
-              "idItem": "item-lista-id-0"
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -146,13 +167,15 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
-              "valor": 2500,
+              "fornecedorId": 6,
+              "clienteId": 1,
+              "valor": 42290,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "clienteId": 1,
+          "fornecedorId": 6,
           "valor": 42290
         },
         {
@@ -172,12 +195,12 @@
             {
               "nomeDoItem": "Caneta esferográfica azul",
               "qtdDoItem": "1000 unidades",
-              "idItem": "item-lista-id-0"
+              "idItem": 1
             },
             {
               "nomeDoItem": "Caneta esferográfica preta",
               "qtdDoItem": "1000 unidades",
-              "idItem": "item-lista-id-1"
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -185,14 +208,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 6,
+              "fornecedorId": 2,
+              "clienteId": 1,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 6,
-          "valor": 11250.57
+          "clienteId": 1,
+          "fornecedorId": 2,
+          "valor": 2500
         },
         {
           "data": "2023-07-19T11:18:17.727Z",
@@ -209,9 +234,14 @@
           "observacao": "N/A",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Carbono",
-              "qtdDoItem": "200 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "Mouse",
+              "qtdDoItem": "30 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Fone de ouvido supra auricular",
+              "qtdDoItem": "145 unidades",
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -219,14 +249,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 5,
-              "valor": 2500,
+              "fornecedorId": 3,
+              "clienteId": 1,
+              "valor": 11570.43,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 5,
-          "valor": 158930
+          "clienteId": 1,
+          "fornecedorId": 3,
+          "valor": 11570.43
         },
         {
           "data": "2023-07-21T09:34:17.727Z",
@@ -245,7 +277,7 @@
             {
               "nomeDoItem": "Resmas de papel",
               "qtdDoItem": "1200 unidades",
-              "idItem": "item-lista-id-0"
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -253,22 +285,24 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 6,
-              "valor": 2500,
+              "fornecedorId": 2,
+              "clienteId": 1,
+              "valor": 1700,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 6,
-          "valor": 19547.3
+          "clienteId": 1,
+          "fornecedorId": 2,
+          "valor": 1700
         }
       ],
       "id": 1
     },
     {
-      "email": "contato@dhl.com",
+      "email": "contato@escrita.com",
       "password": "$2a$10$o29pM8X/kk59wKKwPC6ft.szVkd7AZoks5Ui4sLXdnnk6h4oPKJE2",
-      "nome": "DHL",
+      "nome": "Escrita Fina",
       "cnpj": "65.396.926/0001-93",
       "tipo": "fornecedor",
       "endereco": {
@@ -281,30 +315,231 @@
         "numero": "548"
       },
       "telefone": "3131902000",
-      "imgUrl": "https://i.postimg.cc/B627DtHv/f2.png",
-      "segmento": "Logística",
-      "pedidos": [],
+      "imgUrl": "https://i.postimg.cc/h484RSHg/lu2.png",
+      "segmento": "Papelaria",
+      "pedidos": [
+        {
+          "data": "2022-12-11T13:48:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "30 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Envelope papel",
+              "qtdDoItem": "10000 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Caneta esferográfica preta",
+              "qtdDoItem": "500 unidades",
+              "idItem": 2
+            },
+            {
+              "nomeDoItem": "Papel reciclado",
+              "qtdDoItem": "1000 resmas",
+              "idItem": 3
+            }
+          ],
+          "status": "finalizado",
+          "id": 1,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "clienteId": 1,
+              "valor": 5497.02,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 2,
+          "valor": 5497.02
+        },
+        {
+          "data": "2023-03-18T11:41:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "60 dias",
+          "observacao": "Realizar duas entregas com intervalos de 15 dias",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Caneta esferográfica azul",
+              "qtdDoItem": "1000 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Caneta esferográfica preta",
+              "qtdDoItem": "1000 unidades",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 2,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "clienteId": 1,
+              "valor": 2500,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 2,
+          "valor": 2500
+        },
+        {
+          "data": "2023-07-21T09:34:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Resmas de papel",
+              "qtdDoItem": "1200 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 3,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 2,
+              "clienteId": 1,
+              "valor": 1700,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 2,
+          "valor": 1700
+        }
+      ],
       "id": 2
     },
     {
-      "email": "contato@usiminas.com",
+      "email": "contato@tecnobits.com",
       "password": "$2a$10$q5ZFv9DPAOL5lqgaw/a4g.Tfdqx9c/OylXYlQEizA/PCGBb1Q7vna",
-      "nome": "Usiminas",
-      "cnpj": "29.846.402/0001-93",
-      "tipo": "cliente",
+      "nome": "TecnoBits",
+      "cnpj": "32.175.340/0001-40",
+      "tipo": "fornecedor",
       "endereco": {
-        "cep": "30110044",
-        "logradouro": "Avenida do Contorno",
-        "bairro": "Lourdes",
-        "localidade": "Belo Horizonte",
-        "uf": "MG",
-        "complemento": "",
-        "numero": "6594"
+        "cep": "24020350",
+        "logradouro": "Rua Jornalista Moacir Padilha",
+        "bairro": "Centro",
+        "localidade": "Niterói",
+        "uf": "RJ",
+        "complemento": "Salas 401-406",
+        "numero": "850"
       },
-      "telefone": "3132901000",
-      "imgUrl": "https://i.postimg.cc/kGcj1Zj3/f1.png",
-      "segmento": "Siderurgia",
+      "telefone": "2134901800",
+      "imgUrl": "https://i.postimg.cc/fyvMcKxk/lu3.png",
+      "segmento": "Informática e T.I.",
       "pedidos": [
+        {
+          "data": "2022-12-27T19:40:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Computador",
+              "qtdDoItem": "50 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 1,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 3,
+              "clienteId": 1,
+              "valor": 235198.15,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 3,
+          "valor": 235198.15
+        },
+        {
+          "data": "2023-07-19T11:18:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "30 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Mouse",
+              "qtdDoItem": "30 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Fone de ouvido supra auricular",
+              "qtdDoItem": "145 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 2,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 3,
+              "clienteId": 1,
+              "valor": 11570.43,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 3,
+          "valor": 11570.43
+        },
         {
           "data": "2023-07-24T15:02:17.727Z",
           "endereco": {
@@ -319,75 +554,9 @@
           "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Requeijão",
-              "qtdDoItem": "30 kg",
-              "idItem": "item-lista-id-0"
-            }
-          ],
-          "status": "finalizado",
-          "id": 1,
-          "cotacoes": [
-            {
-              "id": 1,
-              "fornecedorId": 4,
-              "valor": 2500,
-              "prazoDeEntrega": "30 dias",
-              "observacao": "Realizar duas entregas com intervalos de 15 dias"
-            }
-          ],
-          "fornecedorId": 4,
-          "valor": 847
-        },
-        {
-          "data": "2023-10-07T22:45:17.727Z",
-          "endereco": {
-            "logradouro": "Avenida do Contorno",
-            "bairro": "Lourdes",
-            "localidade": "Belo Horizonte",
-            "uf": "MG",
-            "complemento": "",
-            "numero": "6594"
-          },
-          "prazoDeEntrega": "N/A",
-          "observacao": "Realizar duas entregas por dia",
-          "itensDoPedido": [
-            {
-              "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
-              "qtdDoItem": "N/A",
-              "idItem": "item-lista-id-0"
-            }
-          ],
-          "status": "finalizado",
-          "id": 2,
-          "cotacoes": [
-            {
-              "id": 1,
-              "fornecedorId": 2,
-              "valor": 2500,
-              "prazoDeEntrega": "30 dias",
-              "observacao": "Realizar duas entregas com intervalos de 15 dias"
-            }
-          ],
-          "fornecedorId": 2,
-          "valor": 30840.3
-        },
-        {
-          "data": "2023-10-18T12:45:17.727Z",
-          "endereco": {
-            "logradouro": "Avenida do Contorno",
-            "bairro": "Lourdes",
-            "localidade": "Belo Horizonte",
-            "uf": "MG",
-            "complemento": "",
-            "numero": "6594"
-          },
-          "prazoDeEntrega": "60 dias",
-          "observacao": "Realizar duas entregas com intervalos de 15 dias",
-          "itensDoPedido": [
-            {
-              "nomeDoItem": "ferro",
-              "qtdDoItem": "500 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "MacBook",
+              "qtdDoItem": "15 unidades",
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -395,47 +564,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 5,
-              "valor": 2500,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 167350,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 5,
-          "valor": 389200
-        },
-        {
-          "data": "2024-03-29T11:18:17.727Z",
-          "endereco": {
-            "logradouro": "Avenida do Contorno",
-            "bairro": "Lourdes",
-            "localidade": "Belo Horizonte",
-            "uf": "MG",
-            "complemento": "",
-            "numero": "6594"
-          },
-          "prazoDeEntrega": "30 dias",
-          "observacao": "N/A",
-          "itensDoPedido": [
-            {
-              "nomeDoItem": "Carbono",
-              "qtdDoItem": "200 kg",
-              "idItem": "item-lista-id-0"
-            }
-          ],
-          "status": "finalizado",
-          "id": 4,
-          "cotacoes": [
-            {
-              "id": 1,
-              "fornecedorId": 5,
-              "valor": 2500,
-              "prazoDeEntrega": "30 dias",
-              "observacao": "Realizar duas entregas com intervalos de 15 dias"
-            }
-          ],
-          "fornecedorId": 5,
-          "valor": 175000
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 167350
         },
         {
           "data": "2024-03-30T09:34:17.727Z",
@@ -451,24 +589,31 @@
           "observacao": "N/A",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Queijo Minas",
-              "qtdDoItem": "50 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "No-break",
+              "qtdDoItem": "50 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Monitor 24 polegadas",
+              "qtdDoItem": "75 unidades",
+              "idItem": 1
             }
           ],
           "status": "finalizado",
-          "id": 5,
+          "id": 4,
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 4,
-              "valor": 2500,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 9680,
               "prazoDeEntrega": "30 dias",
-              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+              "observacao": "Realizadas duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 4,
-          "valor": 2258
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 9680
         },
         {
           "data": "2024-04-12T16:02:17.727Z",
@@ -481,12 +626,259 @@
             "numero": "6594"
           },
           "prazoDeEntrega": "15 dias",
+          "observacao": "Realizar primeira entrega 15 dias após a escolha do fornecedor",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Notebook Lenovo 15 polegadas",
+              "qtdDoItem": "52 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 5,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 192300,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 192300
+        }
+      ],
+      "id": 3
+    },
+    {
+      "email": "contato@inova.com",
+      "password": "$2a$10$EmUQnV2kMqShmlYZEU6LC.PG.LPx4ISUivr9MKBY0.s7CWhz50EqS",
+      "nome": "Inova Tech",
+      "cnpj": "43.665.970/0001-19",
+      "tipo": "cliente",
+      "endereco": {
+        "cep": "01134000",
+        "logradouro": "Avenida Rudge",
+        "bairro": "Bom Retiro",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "complemento": "",
+        "numero": "218"
+      },
+      "telefone": "1131242100",
+      "imgUrl": "https://i.postimg.cc/BnwzfrJJ/f9.png",
+      "segmento": "Tecnologia",
+      "pedidos": [
+        {
+          "data": "2023-07-24T15:02:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "15 dias",
           "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
           "itensDoPedido": [
             {
-              "nomeDoItem": "Requeijão",
-              "qtdDoItem": "30 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "MacBook",
+              "qtdDoItem": "15 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 1,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 167350,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 167350
+        },
+        {
+          "data": "2023-10-07T22:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "N/A",
+          "observacao": "Realizar duas entregas por dia",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Logística Paraná / São Paulo",
+              "qtdDoItem": "N/A",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Logística São Paulo / Paraná",
+              "qtdDoItem": "N/A",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 2,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 6,
+              "clienteId": 4,
+              "valor": 23100,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 6,
+          "valor": 23100
+        },
+        {
+          "data": "2023-10-18T12:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "60 dias",
+          "observacao": "Realizar duas entregas com intervalos de 15 dias",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Design de material promocional",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Impressão de material promocional",
+              "qtdDoItem": "2000 unidades",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 3,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 7,
+              "clienteId": 4,
+              "valor": 17800,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 7,
+          "valor": 17800
+        },
+        {
+          "data": "2024-03-29T11:18:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "30 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Prestação de logística",
+              "qtdDoItem": "Rota Belém / Macapá",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 4,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 6,
+              "clienteId": 4,
+              "valor": 51900,
+              "prazoDeEntrega": "180 dias",
+              "observacao": "Duração de 6 meses"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 6,
+          "valor": 51900
+        },
+        {
+          "data": "2024-03-30T09:34:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "No-break",
+              "qtdDoItem": "50 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Monitor 24 polegadas",
+              "qtdDoItem": "75 unidades",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 5,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 9680,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizadas duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 9680
+        },
+        {
+          "data": "2024-04-12T16:02:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "Realizar primeira entrega 15 dias após a escolha do fornecedor",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Notebook Lenovo 15 polegadas",
+              "qtdDoItem": "52 unidades",
+              "idItem": 1
             }
           ],
           "status": "finalizado",
@@ -494,14 +886,16 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 4,
-              "valor": 2500,
+              "fornecedorId": 3,
+              "clienteId": 4,
+              "valor": 192300,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 4,
-          "valor": 947.2
+          "clienteId": 4,
+          "fornecedorId": 3,
+          "valor": 192300
         },
         {
           "data": "2024-04-15T22:45:17.727Z",
@@ -527,13 +921,15 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 2,
+              "fornecedorId": 6,
+              "clienteId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 2,
+          "clienteId": 4,
+          "fornecedorId": 6,
           "valor": 51912
         },
         {
@@ -550,9 +946,9 @@
           "observacao": "Realizar duas entregas com intervalos de 15 dias",
           "itensDoPedido": [
             {
-              "nomeDoItem": "ferro",
-              "qtdDoItem": "500 kg",
-              "idItem": "item-lista-id-0"
+              "nomeDoItem": "Design de produto",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
             }
           ],
           "status": "aguardando envio",
@@ -560,38 +956,346 @@
           "cotacoes": [
             {
               "id": 1,
-              "fornecedorId": 5,
+              "fornecedorId": 7,
+              "clienteId": 4,
+              "valor": 14000,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 7,
+          "valor": 14000
+        }
+      ],
+      "id": 4
+    },
+    {
+      "email": "contato@credisol.com",
+      "password": "$2a$10$q5ZFv9DPAOL5lqgaw/a4g.Tfdqx9c/OylXYlQEizA/PCGBb1Q7vna",
+      "nome": "CrediSil",
+      "cnpj": "64.365.704/0001-40",
+      "tipo": "cliente",
+      "endereco": {
+        "cep": "04357100",
+        "logradouro": "Rua Almeida Ferraz",
+        "bairro": "Parque Jabaquara",
+        "localidade": "São Paulo",
+        "uf": "SP",
+        "complemento": "",
+        "numero": "197"
+      },
+      "telefone": "11382715577",
+      "imgUrl": "https://i.postimg.cc/q79B4gJB/lu6.png",
+      "segmento": "Finanças",
+      "pedidos": [],
+      "id": 5
+    },
+    {
+      "email": "contato@movilog.com",
+      "password": "$2a$10$q5ZFv9DPAOL5lqgaw/a4g.Tfdqx9c/OylXYlQEizA/PCGBb1Q7vna",
+      "nome": "MoviLog",
+      "cnpj": "99.660.305/0001-97",
+      "tipo": "fornecedor",
+      "endereco": {
+        "cep": "50050030",
+        "logradouro": "Rua Sete de Setembro",
+        "bairro": "Boa Vista",
+        "localidade": "Recife",
+        "uf": "PE",
+        "complemento": "",
+        "numero": "1204"
+      },
+      "telefone": "3132901000",
+      "imgUrl": "https://i.postimg.cc/wvLqvHMX/lu5.png",
+      "segmento": "Logística",
+      "pedidos": [
+        {
+          "data": "2023-01-25T14:35:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "N/A",
+          "observacao": "Realizar duas entregas por dia",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
+              "qtdDoItem": "N/A",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 1,
+          "cotacoes": [
+            {
+              "id": 1,
+              "clienteId": 1,
+              "fornecedorId": 6,
+              "valor": 42290,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 6,
+          "valor": 42290
+        },
+        {
+          "data": "2023-10-07T22:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "N/A",
+          "observacao": "Realizar duas entregas por dia",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Logística Paraná / São Paulo",
+              "qtdDoItem": "N/A",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Logística São Paulo / Paraná",
+              "qtdDoItem": "N/A",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 2,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 6,
+              "clienteId": 4,
+              "valor": 23100,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 6,
+          "valor": 23100
+        },
+        {
+          "data": "2024-03-29T11:18:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "30 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Prestação de logística",
+              "qtdDoItem": "Rota Belém / Macapá",
+              "idItem": 1
+            }
+          ],
+          "status": "finalizado",
+          "id": 3,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 6,
+              "clienteId": 4,
+              "valor": 51900,
+              "prazoDeEntrega": "180 dias",
+              "observacao": "Duração de 6 meses"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 6,
+          "valor": 51900
+        },
+        {
+          "data": "2024-04-15T22:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "N/A",
+          "observacao": "Realizar duas entregas por dia",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
+              "qtdDoItem": "N/A",
+              "idItem": 1
+            }
+          ],
+          "status": "aguardando envio",
+          "id": 4,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 6,
+              "clienteId": 4,
               "valor": 2500,
               "prazoDeEntrega": "30 dias",
               "observacao": "Realizar duas entregas com intervalos de 15 dias"
             }
           ],
-          "fornecedorId": 5,
-          "valor": 412500
+          "clienteId": 4,
+          "fornecedorId": 6,
+          "valor": 51912
         }
       ],
-      "id": 3
+      "id": 6
     },
     {
-      "email": "contato@catupiry.com",
-      "password": "$2a$10$EmUQnV2kMqShmlYZEU6LC.PG.LPx4ISUivr9MKBY0.s7CWhz50EqS",
-      "nome": "Catupiry",
-      "cnpj": "43.665.970/0001-19",
+      "email": "contato@engenho.com",
+      "password": "$2a$10$q5ZFv9DPAOL5lqgaw/a4g.Tfdqx9c/OylXYlQEizA/PCGBb1Q7vna",
+      "nome": "Engenho Criativo",
+      "cnpj": "86.940.746/0001-09",
       "tipo": "fornecedor",
       "endereco": {
-        "cep": "01134000",
-        "logradouro": "Avenida Rudge",
-        "bairro": "Bom Retiro",
-        "localidade": "São Paulo",
-        "uf": "SP",
+        "cep": "81220310",
+        "logradouro": "Rua José Benedito Cottolengo",
+        "bairro": "Campo Comprido",
+        "localidade": "Curitiba",
+        "uf": "PR",
         "complemento": "",
-        "numero": "218"
+        "numero": "658"
       },
-      "telefone": "1131242100",
-      "imgUrl": "https://i.postimg.cc/BnwzfrJJ/f9.png",
-      "segmento": "Alimentos",
-      "pedidos": [],
-      "id": 4
+      "telefone": "3132901000",
+      "imgUrl": "https://i.postimg.cc/rwLVfT50/lu10.png",
+      "segmento": "Design",
+      "pedidos": [
+        {
+          "data": "2023-01-20T12:20:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "Realizar primeira entrega 7 dias após a escolha do fornecedor",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Design de marca",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Design de papelaria",
+              "qtdDoItem": "1 serviço",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 1,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 7,
+              "clienteId": 1,
+              "valor": 38440,
+              "prazoDeEntrega": "90 dias",
+              "observacao": "N/A"
+            }
+          ],
+          "clienteId": 1,
+          "fornecedorId": 7,
+          "valor": 38440
+        },
+        {
+          "data": "2023-10-18T12:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "60 dias",
+          "observacao": "Realizar duas entregas com intervalos de 15 dias",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Design de material promocional",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Impressão de material promocional",
+              "qtdDoItem": "2000 unidades",
+              "idItem": 2
+            }
+          ],
+          "status": "finalizado",
+          "id": 2,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 7,
+              "clienteId": 4,
+              "valor": 17800,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 7,
+          "valor": 17800
+        },
+        {
+          "data": "2024-04-28T12:45:17.727Z",
+          "endereco": {
+            "logradouro": "Avenida do Contorno",
+            "bairro": "Lourdes",
+            "localidade": "Belo Horizonte",
+            "uf": "MG",
+            "complemento": "",
+            "numero": "6594"
+          },
+          "prazoDeEntrega": "60 dias",
+          "observacao": "Realizar duas entregas com intervalos de 15 dias",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Design de produto",
+              "qtdDoItem": "1 serviço",
+              "idItem": 1
+            }
+          ],
+          "status": "aguardando envio",
+          "id": 3,
+          "cotacoes": [
+            {
+              "id": 1,
+              "fornecedorId": 7,
+              "clienteId": 4,
+              "valor": 14000,
+              "prazoDeEntrega": "30 dias",
+              "observacao": "Realizar duas entregas com intervalos de 15 dias"
+            }
+          ],
+          "clienteId": 4,
+          "fornecedorId": 7,
+          "valor": 14000
+        }
+      ],
+      "id": 7
     }
   ],
   "pedidos": []
