@@ -241,7 +241,7 @@
             {
               "nomeDoItem": "Fone de ouvido supra auricular",
               "qtdDoItem": "145 unidades",
-              "idItem": 1
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -521,7 +521,7 @@
             {
               "nomeDoItem": "Fone de ouvido supra auricular",
               "qtdDoItem": "145 unidades",
-              "idItem": 1
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -596,7 +596,7 @@
             {
               "nomeDoItem": "Monitor 24 polegadas",
               "qtdDoItem": "75 unidades",
-              "idItem": 1
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -669,7 +669,7 @@
         "numero": "218"
       },
       "telefone": "1131242100",
-      "imgUrl": "https://i.postimg.cc/BnwzfrJJ/f9.png",
+      "imgUrl": "https://i.postimg.cc/cCWstjtV/lu4.png",
       "segmento": "Tecnologia",
       "pedidos": [
         {
@@ -843,7 +843,7 @@
             {
               "nomeDoItem": "Monitor 24 polegadas",
               "qtdDoItem": "75 unidades",
-              "idItem": 1
+              "idItem": 2
             }
           ],
           "status": "finalizado",
@@ -913,7 +913,7 @@
             {
               "nomeDoItem": "Logística Nova Lima / Rio de Janeiro",
               "qtdDoItem": "N/A",
-              "idItem": "item-lista-id-0"
+              "idItem": 1
             }
           ],
           "status": "aguardando envio",
