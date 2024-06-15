@@ -1328,5 +1328,268 @@
       "id": "ee7f46f5-2d76-41f7-8420-75804310496f"
     }
   ],
-  "pedidos": []
+  "pedidos": [],
+  "cotacoes": [
+    {
+      "id": "11bb9bc7-a7e3-44c3-a7ea-826724e909de",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 5497.02,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "60e4ed02-ca36-4482-9a11-28d09c5c1fc8",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 235198.15,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "e80d124d-95d5-44c0-b0db-0f4347a1d78d",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 42290,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "814c3ceb-dd6d-4c92-850a-0ffffce44578",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 2500,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "36a44241-6c49-4b49-b497-51865895c5ca",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 11570.43,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "f3fd95ef-5f1d-4d6f-be4a-e05641cfd3a0",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 1700,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "ccccea1a-12d9-409b-9363-38fdf9a95f1f",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 5497.02,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "22c1b319-cfad-4b84-8a91-b78013643925",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 2500,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "d5016396-02bf-4796-82e7-59ea6d56957d",
+      "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 1700,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "055b39ef-c20d-4a53-b52d-6dd8c5289901",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 235198.15,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "b861b9d6-d564-43d2-b10d-16fb1eee00e8",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 11570.43,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "b31135bb-e15e-40c9-b40c-72529d54ba07",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 167350,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "29f16c2f-ffbe-4537-a518-16bffbbbca26",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 9680,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizadas duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "95afe9c6-3023-4351-a824-0eb68694a736",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 192300,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "d630a8a2-3d3f-4825-a9be-1dd861591b63",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 167350,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "774a298f-c857-43ce-8a13-747019414b40",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 23100,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "06ead21a-54ea-4521-acad-0a48e63a9212",
+      "fornecedorId": "ee7f46f5-2d76-41f7-8420-75804310496f",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 17800,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "db26db8a-937d-4128-8877-c00acd7daee8",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 51900,
+      "prazoDeEntrega": "180 dias",
+      "observacao": "Duração de 6 meses",
+      "aceita": true
+    },
+    {
+      "id": "1fe81e84-a377-495e-bf25-9726cc1a92a2",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 9680,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizadas duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "8f17b17c-1021-4d0a-a61d-df914692f9a4",
+      "fornecedorId": "ec10057d-13d9-47ee-b67c-dce2f331d51c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 192300,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "8874735f-0af0-4298-8625-7716a50cd59b",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 2500,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "d05ff51b-5f9d-4764-a5bf-0e339425640c",
+      "fornecedorId": "ee7f46f5-2d76-41f7-8420-75804310496f",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 14000,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "f423c14f-2393-4942-b99f-821c16b70c68",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "valor": 42290,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "a0e839dc-2807-4709-8450-485a709812ea",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 23100,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "9475c8fb-ef83-4b88-b3ad-7a6e6350a082",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 51900,
+      "prazoDeEntrega": "180 dias",
+      "observacao": "Duração de 6 meses",
+      "aceita": true
+    },
+    {
+      "id": "b1b4a118-0bf3-4baf-bcc4-37986832fa30",
+      "fornecedorId": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 2500,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "d640a50c-6459-43d4-b311-4291a210515b",
+      "fornecedorId": "ee7f46f5-2d76-41f7-8420-75804310496f",
+      "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+      "valor": 38440,
+      "prazoDeEntrega": "90 dias",
+      "observacao": "N/A",
+      "aceita": true
+    },
+    {
+      "id": "99911b93-55b0-4178-81ca-48632de96e90",
+      "fornecedorId": "ee7f46f5-2d76-41f7-8420-75804310496f",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 17800,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    },
+    {
+      "id": "65255038-9a1a-4f48-a6c6-e80624ed32d3",
+      "fornecedorId": "ee7f46f5-2d76-41f7-8420-75804310496f",
+      "clienteId": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6",
+      "valor": 14000,
+      "prazoDeEntrega": "30 dias",
+      "observacao": "Realizar duas entregas com intervalos de 15 dias",
+      "aceita": true
+    }
+  ]
 }
