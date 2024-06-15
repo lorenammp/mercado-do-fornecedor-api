@@ -302,6 +302,38 @@
           "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
           "fornecedorId": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba",
           "valor": 1700
+        },
+        {
+          "data": "2024-06-11T09:34:17.727Z",
+          "endereco": {
+            "cep": "09842080",
+            "logradouro": "Estrada Galvão Bueno",
+            "bairro": "Batistini",
+            "localidade": "São Bernardo do Campo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "5000"
+          },
+          "prazoDeEntrega": "15 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "No-break",
+              "qtdDoItem": "68 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Cabo DVI",
+              "qtdDoItem": "103 unidades",
+              "idItem": 2
+            }
+          ],
+          "status": "em aberto",
+          "id": "6119d36b-0ca6-4779-9447-741288483d06",
+          "cotacoes": [],
+          "clienteId": "41a083d0-5a3a-4b4b-8a96-0905299a7de0",
+          "fornecedorId": null,
+          "valor": null
         }
       ],
       "id": "41a083d0-5a3a-4b4b-8a96-0905299a7de0"
@@ -996,7 +1028,7 @@
     {
       "email": "contato@credisol.com",
       "password": "$2a$10$q5ZFv9DPAOL5lqgaw/a4g.Tfdqx9c/OylXYlQEizA/PCGBb1Q7vna",
-      "nome": "CrediSil",
+      "nome": "CrediSol",
       "cnpj": "64.365.704/0001-40",
       "tipo": "cliente",
       "endereco": {
@@ -1011,7 +1043,50 @@
       "telefone": "11382715577",
       "imgUrl": "https://i.postimg.cc/q79B4gJB/lu6.png",
       "segmento": "Finanças",
-      "pedidos": [],
+      "pedidos": [
+        {
+          "data": "2024-06-13T09:34:17.727Z",
+          "endereco": {
+            "cep": "04357100",
+            "logradouro": "Rua Almeida Ferraz",
+            "bairro": "Parque Jabaquara",
+            "localidade": "São Paulo",
+            "uf": "SP",
+            "complemento": "",
+            "numero": "197"
+          },
+          "prazoDeEntrega": "30 dias",
+          "observacao": "N/A",
+          "itensDoPedido": [
+            {
+              "nomeDoItem": "Notebook Dell 15'' core i5 16Gb RAM",
+              "qtdDoItem": "79 unidades",
+              "idItem": 1
+            },
+            {
+              "nomeDoItem": "Mouse Logitech",
+              "qtdDoItem": "121 unidades",
+              "idItem": 2
+            },
+            {
+              "nomeDoItem": "Teclado mecânico Logitech",
+              "qtdDoItem": "91 unidades",
+              "idItem": 3
+            },
+            {
+              "nomeDoItem": "Teclado membrana Logitech",
+              "qtdDoItem": "34 unidades",
+              "idItem": 4
+            }
+          ],
+          "status": "em aberto",
+          "id": "d2745675-bf47-4995-b31c-1ef56e0ce02c",
+          "cotacoes": [],
+          "clienteId": "bc592877-8b26-4667-933b-94ee8aed1166",
+          "fornecedorId": null,
+          "valor": null
+        }
+      ],
       "id": "bc592877-8b26-4667-933b-94ee8aed1166"
     },
     {
