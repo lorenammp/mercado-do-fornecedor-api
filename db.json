@@ -654,7 +654,7 @@
       "valor": 5497.02,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "60e4ed02-ca36-4482-9a11-28d09c5c1fc8",
@@ -664,7 +664,7 @@
       "valor": 235198.15,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "56a6c00c-6372-468e-ae7b-1e39a29e7296",
@@ -674,7 +674,7 @@
       "valor": 38440,
       "prazoDeEntrega": "90 dias",
       "observacao": "N/A",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "e80d124d-95d5-44c0-b0db-0f4347a1d78d",
@@ -684,7 +684,7 @@
       "valor": 42290,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "814c3ceb-dd6d-4c92-850a-0ffffce44578",
@@ -694,7 +694,7 @@
       "valor": 2500,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "36a44241-6c49-4b49-b497-51865895c5ca",
@@ -704,7 +704,7 @@
       "valor": 11570.43,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "f3fd95ef-5f1d-4d6f-be4a-e05641cfd3a0",
@@ -714,7 +714,7 @@
       "valor": 1700,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "d630a8a2-3d3f-4825-a9be-1dd861591b63",
@@ -724,7 +724,7 @@
       "valor": 167350,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "774a298f-c857-43ce-8a13-747019414b40",
@@ -734,7 +734,7 @@
       "valor": 23100,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "06ead21a-54ea-4521-acad-0a48e63a9212",
@@ -744,7 +744,7 @@
       "valor": 17800,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "db26db8a-937d-4128-8877-c00acd7daee8",
@@ -754,7 +754,7 @@
       "valor": 51900,
       "prazoDeEntrega": "180 dias",
       "observacao": "Duração de 6 meses",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "1fe81e84-a377-495e-bf25-9726cc1a92a2",
@@ -764,7 +764,7 @@
       "valor": 9680,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizadas duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "8f17b17c-1021-4d0a-a61d-df914692f9a4",
@@ -774,7 +774,7 @@
       "valor": 192300,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "8874735f-0af0-4298-8625-7716a50cd59b",
@@ -784,7 +784,7 @@
       "valor": 2500,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     },
     {
       "id": "d05ff51b-5f9d-4764-a5bf-0e339425640c",
@@ -794,7 +794,7 @@
       "valor": 14000,
       "prazoDeEntrega": "30 dias",
       "observacao": "Realizar duas entregas com intervalos de 15 dias",
-      "status": true
+      "status": "aceita"
     }
   ]
 }
