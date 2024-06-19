@@ -18,7 +18,44 @@
       "telefone": "1132945000",
       "imgUrl": "https://i.postimg.cc/CLFhF3g8/lu1.png",
       "segmento": "Mineração",
-      "pedidos": [],
+      "itensDePedidos": [
+        {
+          "nomeDoItem": "Envelope papel"
+        },
+        {
+          "nomeDoItem": "Caneta esferográfica preta"
+        },
+        {
+          "nomeDoItem": "Papel reciclado"
+        },
+        {
+          "nomeDoItem": "Design de marca"
+        },
+        {
+          "nomeDoItem": "Design de papelaria"
+        },
+        {
+          "nomeDoItem": "Logística Nova Lima / Rio de Janeiro"
+        },
+        {
+          "nomeDoItem": "Caneta esferográfica azul"
+        },
+        {
+          "nomeDoItem": "Mouse"
+        },
+        {
+          "nomeDoItem": "Fone de ouvido supra auricular"
+        },
+        {
+          "nomeDoItem": "Resmas de papel"
+        },
+        {
+          "nomeDoItem": "No-break"
+        },
+        {
+          "nomeDoItem": "Cabo DVI"
+        }
+      ],
       "id": "41a083d0-5a3a-4b4b-8a96-0905299a7de0"
     },
     {
@@ -39,7 +76,7 @@
       "telefone": "3131902000",
       "imgUrl": "https://i.postimg.cc/h484RSHg/lu2.png",
       "segmento": "Papelaria",
-      "pedidos": [],
+      "itensDePedidos": [],
       "id": "f5c0480b-ebdc-4e03-b006-67a466b1d4ba"
     },
     {
@@ -60,7 +97,7 @@
       "telefone": "2134901800",
       "imgUrl": "https://i.postimg.cc/fyvMcKxk/lu3.png",
       "segmento": "Informática e T.I.",
-      "pedidos": [],
+      "itensDePedidos": [],
       "id": "ec10057d-13d9-47ee-b67c-dce2f331d51c"
     },
     {
@@ -81,7 +118,35 @@
       "telefone": "1131242100",
       "imgUrl": "https://i.postimg.cc/cCWstjtV/lu4.png",
       "segmento": "Tecnologia",
-      "pedidos": [],
+      "itensDePedidos": [
+        {
+          "nomeDoItem": "MacBook"
+        },
+        {
+          "nomeDoItem": "Logística Paraná / São Paulo"
+        },
+        {
+          "nomeDoItem": "Logística São Paulo / Paraná"
+        },
+        {
+          "nomeDoItem": "Design de material promocional"
+        },
+        {
+          "nomeDoItem": "Impressão de material promocional"
+        },
+        {
+          "nomeDoItem": "Prestação de logística"
+        },
+        {
+          "nomeDoItem": "No-break"
+        },
+        {
+          "nomeDoItem": "Monitor 24 polegadas"
+        },
+        {
+          "nomeDoItem": "Notebook Lenovo 15 polegadas"
+        }
+      ],
       "id": "98d5ca2a-fd41-4477-94b4-85d02b0cfef6"
     },
     {
@@ -102,7 +167,7 @@
       "telefone": "11382715577",
       "imgUrl": "https://i.postimg.cc/q79B4gJB/lu6.png",
       "segmento": "Finanças",
-      "pedidos": [],
+      "itensDePedidos": [],
       "id": "bc592877-8b26-4667-933b-94ee8aed1166"
     },
     {
@@ -123,7 +188,7 @@
       "telefone": "3132901000",
       "imgUrl": "https://i.postimg.cc/wvLqvHMX/lu5.png",
       "segmento": "Logística",
-      "pedidos": [],
+      "itensDePedidos": [],
       "id": "9c8fe2a6-d27d-408c-b9d0-d431b4f6451c"
     },
     {
@@ -144,7 +209,7 @@
       "telefone": "3132901000",
       "imgUrl": "https://i.postimg.cc/rwLVfT50/lu10.png",
       "segmento": "Design",
-      "pedidos": [],
+      "itensDePedidos": [],
       "id": "ee7f46f5-2d76-41f7-8420-75804310496f"
     }
   ],
